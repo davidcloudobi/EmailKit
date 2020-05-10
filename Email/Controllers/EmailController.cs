@@ -81,6 +81,7 @@ namespace Email.Controllers
         [HttpPost("asyncEmail")]
         public async Task<IActionResult> AsyncEmail(MessageDTO message)
         {
+            //conditional statement
            // var files = Request.Form.Files.Any() ? Request.Form.Files : new FormFileCollection();
           
 
