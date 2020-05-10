@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Email</name>
+    </assembly>
+    <members>
+        <member name="T:Email.Controllers.Email">
+            <summary>
+            Version 1, User
+            </summary>
+            
+        </member>
+        <member name="M:Email.Controllers.Email.SyncEmail(EmailService.MessageDTO)">
+            <summary>
+             Return a void
+            </summary>
+            <param name="message"></param>
+            <remarks>
+            Sample request (this request sends mail)
+            </remarks>
+            <response code="200">Returns  a void </response>
+        </member>
+        <member name="M:Email.Controllers.Email.AsyncEmail(EmailService.MessageDTO)">
+            <summary>
+             Return a void
+            </summary>
+            <param name="message"></param>
+            <remarks>
+            Sample request (this request sends mail)
+            </remarks>
+            <response code="200">Returns  a void </response>
+        </member>
+    </members>
+</doc>
