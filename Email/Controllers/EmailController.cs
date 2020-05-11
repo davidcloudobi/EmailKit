@@ -79,10 +79,10 @@ namespace Email.Controllers
         /// <response code="200">Returns  a void </response>
 
         [HttpPost("asyncEmail")]
-        public async Task<IActionResult> AsyncEmail(MessageDTO message)
+        public async Task<IActionResult> AsyncEmail([FromForm] MessageDTO message)
         {
             //conditional statement
-           // var files = Request.Form.Files.Any() ? Request.Form.Files : new FormFileCollection();
+           //var files = Request.Form.Files.Any() ? Request.Form.Files : new FormFileCollection();
           
 
            // var message = new Message(new string[] { "davidcloudobi@gmail.com" }, "Test mail with Attachments", "This is the content from our mail with attachments.", files);
